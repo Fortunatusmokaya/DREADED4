@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
 		parsedArgs: IParsedArgs
 	): Promise<void> => {
 		const user = M.sender.jid;
-		const LUMINE =
+		const chitoge =
 			"https://c.tenor.com/UFb9RNqL0McAAAPo/genshin-impact-genshin.mp4";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
