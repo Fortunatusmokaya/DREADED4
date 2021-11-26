@@ -21,8 +21,8 @@ export default class Command extends BaseCommand {
 		parsedArgs: IParsedArgs
 	): Promise<void> => {
 		const user = M.sender.jid;
-		const chitoge =
-			"https://media.tenor.com/videos/571d88ea5d66e7b95cdbc4ef6029dd95/mp4";
+		const LUMINE =
+			"https://c.tenor.com/UFb9RNqL0McAAAPo/genshin-impact-genshin.mp4";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
 			const categories: { [key: string]: ICommand[] } = {};
@@ -43,11 +43,11 @@ export default class Command extends BaseCommand {
 					categories[info.config.category].push(info);
 				}
 			}
-			let text = `👋🏻 (💙ω💙) Konichiwa! *@${
+			let text = `HELLO THERE *@${
 				user.split("@")[0]
-			}*, I'm Chitoge.\n\nMy prefix is - "${
+			}*, LUMINE HERE.\n\nMy prefix is - "${
 				this.client.config.prefix
-			}"\n\nThe usable commands are listed below.\n\n`;
+			}"\n\nTHESE ARE THE COMMANDS THAT CAN BE USED RIGHT NOW.\n\n`;
 			const keys = Object.keys(categories);
 			for (const key of keys)
 				text += `${
