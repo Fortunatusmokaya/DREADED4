@@ -22,17 +22,17 @@ export default class Command extends BaseCommand {
         if (!joined) return void M.reply(' Provide a search term, Baka!')
         const term = joined.trim()
         const { videos } = await yts(term)
-        if (!videos || videos.length <= 0) return void M.reply(`⚓ No Matching videos found for the term : *${term}*`)
+        if (!videos || videos.length <= 0) return void M.reply(` No Matching videos found for the term : *${term}*`)
         const audio = new YT(videos[0].url, 'audio')
         if (!audio.url) return
-        M.reply('🌟 Sending...')
+        M.reply('Wait darling💖...')
         this.client
             .sendMessage(M.from, await audio.getBuffer(), MessageType.audio, {
                 quoted: M.WAMessage,
                 contextInfo: {
                     externalAdReply: {
                         title: videos[0].title.substr(0, 30),
-                        body: `author : ${videos[0].author.name.substr(0, 20)}\n🌟 Chitoge 🌟`,
+                        body: `author : ${videos[0].author.name.substr(0, 20)}\n💃 LUMINE 💃`,
                         mediaType: 2,
                         thumbnailUrl: `https://i.ytimg.com/vi/${audio.id}/hqdefault.jpg`,
                         mediaUrl: audio.url
