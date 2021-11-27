@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		const user = M.sender.jid;
 		const chitoge =
-			"https://c.tenor.com/UFb9RNqL0McAAAPo/genshin-impact-genshin.mp4";
+			"https://c.tenor.com/QhHQxZ4caIkAAAPo/hu-tao-dance.mp4";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
 			const categories: { [key: string]: ICommand[] } = {};
@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
 			}
 			let text = `HELLO THERE *@${
 				user.split("@")[0]
-			}*, LUMINE HERE.\n\nMy prefix is - "${
+			}*, HU TAO HERE.\n\nMy prefix is - "${
 				this.client.config.prefix
 			}"\n\nTHESE ARE THE COMMANDS THAT CAN BE USED RIGHT NOW.\n\n`;
 			const keys = Object.keys(categories);
