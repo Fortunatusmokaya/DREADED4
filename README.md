@@ -42,8 +42,8 @@
 
 ##  🚀 Our Amazing Contributors
 
-<a href="https://github.com/ShineiIchijo/Chitoge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ShineiIchijo/Chitoge" />
+<a href="https://github.com/BEYOND-THE-WORLD/HUTAO2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BEYOND-THE-WORLD/HUTAO2" />
 </a>
 
 
