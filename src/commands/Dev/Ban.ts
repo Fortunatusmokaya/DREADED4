@@ -21,14 +21,14 @@ export default class Command extends BaseCommand {
             : [M.sender.jid, this.client.user.jid]
 
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
-        if (!M.mentioned.length || !M.mentioned[0]) return void M.reply('Mention the user whom you want to ban')
+        if (!M.mentioned.length || !M.mentioned[0]) return void M.reply('MASTER,give me that user whom you want to ban')
         let text = '*STATE*\n\n'
         // declare tagged as (string | undefined) []
         // const tagged : (string | undefined)[] = []
         for (const user of M.mentioned) {
             if (immortals.includes(user)) {
                 // tagged.push(user)
-                text += `🟨 @${user.split('@')[0]} is an immortal, can't be banned\n`
+                text += `🟨 @${user.split('@')[0]} is myself MASTER,why should I ban myself? MASTER your command seems unrealistic. Take a look!\n`
                 continue
             }
             const data = await this.client.getUser(user)
