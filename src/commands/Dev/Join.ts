@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
                 .map((chat) => chat.jid)
             const s = url.split('/')
             const { status, gid } = await this.client.acceptInvite(s[s.length - 1]).catch(() => ({ status: 401 }))
-            if (status === 401) return void M.reply('Cannot join group. Maybe, I was removed from there before')
-            if (groups.includes(gid)) return void M.reply('Already there')
+            if (status === 401) return void M.reply('MASTER,I am having difficulty joining this group. Seems I was removed some time before!')
+            if (groups.includes(gid)) return void M.reply('MASTER,I have already arrived there')
             return void M.reply(`Joined ${(await this.client.fetchGroupMetadataFromWA(gid)).subject}`)
         }
     }
