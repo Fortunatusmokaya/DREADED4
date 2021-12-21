@@ -8,7 +8,7 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'hutao',
+            command: 'dreaded',
             description: 'gives information about bot.',
             category: 'Hutao',
             usage: `${client.config.prefix}lumine`
@@ -24,10 +24,10 @@ export default class Command extends BaseCommand {
 ┌────────────┈❅   
 |「(づ￣ 3￣)づ」
 │🚀 ᴜꜱᴇʀ   : *${M.sender.username}*
-│💖 ɴᴀᴍᴇ  : HU TAO
+│💖 ɴᴀᴍᴇ  : DREADED
 │👽 ᴘʀᴇꜰɪx : ${this.client.config.prefix}
-│👑 ᴏᴡɴᴇʀ :Janul <${this.client.config.prefix}mod>
-|💃 Hu tao : Well..
+│👑 ᴏᴡɴᴇʀ : Fortunne <${this.client.config.prefix}mod>
+|💃 Dreaded : Well..
                    Fully Modular Design
                   
                    Object Oriented
@@ -38,17 +38,19 @@ export default class Command extends BaseCommand {
                    
                    Built with Baileys (The Best WhatsApp Library Out There)    
     
-    Rules :  1.Don't spam me cause I wanna give you the best bot experience ever😊
+    Rules :  1.Contact my owner through wa.me/+254114018035 incase you want my script and assistance in deploying me
              
-             2.Don't call me or spam dm result=ban/block😡
+             2.Don't video or voice call me result=ban/block😡
             
              3.Don't spam commands😡
             
-             4.Don't spam wrong commands use <${this.client.config.prefix}help command_name to get info about commands>🥺          
+             4.Don't spam wrong commands use <${this.client.config.prefix}help to get info about commands>🥺          
              
+             5. If I am removed from a group without my consent i won't return there😒
+            
      Well then... I am still under construction😂 Uwu.
                   
-                  MY owner is trying his best to create more commands to make you guys happy Uwu.😊🚀
+                  MY owner is trying his best to create more commands to make me the BEST♥️
    
      Also...
                  
@@ -59,13 +61,13 @@ export default class Command extends BaseCommand {
             caption: `${text} 
 
             
-    ──❅┈[ 💖HU TAO💖 ]┈❅───
+    ──❅┈[ 👾DREADED👾 ]┈❅───
     ┌────────────┈❅
-    │   🧨 HU TAO💖💃💖💃
-    │   🚀Beyond Bot(*^_^*)🚀
+    │   ♥️ Fortunne💖💃💖💃
+    │   🇰🇪Beyond Bot(*^_^*)🚀
     └────────────┈⁂
-    ❅┈[💖𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲💖]┈❅
-    🎗 *Note: Use ${this.client.config.prefix}help <hutao> to view the command info*` }
+    ❅┈[💖NICE DAY💖]┈❅
+    💫 *Note: Use ${this.client.config.prefix}dreaded to read my rules and get other info about the bot and script*` }
          )
 
 
