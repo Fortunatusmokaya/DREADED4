@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
             reason: (split[1] || '').trim() || ''
         }).save()
         await M.reply(
-            `*${this.client.util.capitalize(command.config.command)}* is now Disabled${
+            `MASTER *${this.client.util.capitalize(command.config.command)}* is now Disabled${
                 split[1] ? ` for ${split[1]}` : ''
             }`
         )
