@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
         if (!(M.groupMetadata?.owner.split('@')[0] === M.sender.jid.split('@')[0]))
             return void M.reply('Only the group owner can use this command')
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
-            return void M.reply("How can I remove all of the members without being an admin?")
+            return void M.reply("How can I remove all of the members without being an ADMIN?")
         if (!this.purgeSet.has(M.groupMetadata?.id || '')) {
             this.addToPurge(M.groupMetadata?.id || '')
             return void M.reply(
