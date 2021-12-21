@@ -46,9 +46,11 @@ export default class Command extends BaseCommand {
             
              4.Don't spam wrong commands use <${this.client.config.prefix}help to get info about commands>🥺          
              
-             5. If I am removed from a group without my consent i won't return there😒
+             5.If you need me in your group contact Fortunne or send me a link in my dm.
+             
+           
             
-     Well then... I am still under construction😂 Uwu.
+     Well then... I am still under construction😩Uwu.
                   
                   MY owner is trying his best to create more commands to make me the BEST♥️
    
