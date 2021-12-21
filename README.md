@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://en.esportsku.com/wp-content/uploads/2021/03/hu-tao.jpg" alt="chitoge" border="0"></a>
 
-# **HU-TAO : A WhatsApp BOT WITH RICH ANIME FEATURES**
+# **DREADED : A WhatsApp BOT WITH RICH ANIME FEATURES**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
@@ -9,7 +9,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ShineiIchijo/Chitoge/blob/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Fortunatusmokaya/DREADED./blob/main)
 
 
 </div><br/>
