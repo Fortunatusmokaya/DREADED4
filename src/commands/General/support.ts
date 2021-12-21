@@ -20,8 +20,8 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
         `         WELL IN THAT CASE
-       💃 * INVITE LINK:* 💃https://chat.whatsapp.com/LAzFp0iJ9EX9h8Mwcprfxx
-        🎉*GENSHIN IMPACT GLOBAL INVITE LINK🎉:*https://chat.whatsapp.com/DLnxUTR1toqHoLh5zJ7WIB`,
+       💃 *SUPPORT GROUP INVITE LINK:* 💃https://chat.whatsapp.com/KgpZTgYusnSC2IIsgFDJFz
+        🎉*MY OWNER CONTACT🎉:* wa.me/+254114018035`,
            MessageType.text
         ))
         const n = [
@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Sent you the Group Link in personal message \n` }
+            caption: `Regarding this,I have sent you personal message in your inbox,check it!\n` }
         )
 
         }
