@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
         `         WELL IN THAT CASE
-       💃 *SUPPORT GROUP INVITE LINK:* 💃https://chat.whatsapp.com/KgpZTgYusnSC2IIsgFDJFz
+       👾 *SUPPORT GROUP INVITE LINK:* 👾https://chat.whatsapp.com/KgpZTgYusnSC2IIsgFDJFz
         🎉*MY OWNER CONTACT🎉:* wa.me/+254114018035`,
            MessageType.text
         ))
