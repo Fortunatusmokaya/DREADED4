@@ -45,9 +45,9 @@ export default class Command extends BaseCommand {
 			}
 			let text = `HELLO THERE *@${
 				user.split("@")[0]
-			}*, HU TAO HERE.\n\nMy prefix is - "${
+			}*, DREADED IS HERE.\n\nMy prefix is - "${
 				this.client.config.prefix
-			}"\n\nTHESE ARE THE COMMANDS THAT CAN BE USED RIGHT NOW.\n\n`;
+			}"\n\nTHIS IS MY COMMAND LIST.DO NOT SPAM COMMANDS,OK?\n\n`;
 			const keys = Object.keys(categories);
 			for (const key of keys)
 				text += `${
@@ -62,7 +62,7 @@ export default class Command extends BaseCommand {
 				{
 					quoted: M.WAMessage,
 					mimetype: Mimetype.gif,
-					caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`,
+					caption: `${text} 🇰🇪 *Note: Use ${this.client.config.prefix}dreaded to get my script and my owner contact*`,
 					contextInfo: { mentionedJid: [user] },
 				}
 			);
@@ -95,5 +95,5 @@ export default class Command extends BaseCommand {
 		);
 	};
 
-	emojis = ["❄", "📚", "🌈", "♟", "📍", "🎵", "👑", "🚫", "♻️", "✨"];
+	emojis = ["🇰🇪", "📚", "🔮", "♟", "📍", "🎵", "👑", "♥️", "♻️", "✨"];
 }
