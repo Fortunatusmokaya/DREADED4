@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `GO CHECK MY MASTER'S PROFILE💖💃
-                   https://github.com/Ayakajanul. \n`,
+				caption: `GO CHECK MY MASTER'S PROFILE,GIVE A STAR AND MAYBE A FOLLOW💖💃
+                   https://github.com/Fortunatusmokaya. \n`,
 			}
 		);
 	};
