@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Yoh, now why might you be looking for me, hm? Oh, you didn't know? I'm the 77th Director of the Wangsheng Funeral Parlor, Hu Tao. Though by the looks of you... Radiant glow, healthy posture... Yes, you're definitely here for something other than that which falls within my regular line of work, aren't you?
-				Anyway use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Hello my Chan, do you know me? I am dreaded a WhatsApp bot created by Fortunne. Won't you mind telling me your name too?
+				 something from *${this.client.config.prefix}help* list if you want anything. \n`,
 			}
 		);
 	};
