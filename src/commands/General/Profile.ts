@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
         try {
             pfp = await this.client.getProfilePicture(user)
         } catch (err) {
-            M.reply(`Profile Picture not Accessible of ${username}`)
+            M.reply(`${username} has hidden the Profile Picture, Probably very ugly 🚮`)
             pfp =
                 'https://wallpaperaccess.com/full/5304840.png'
         }
@@ -88,9 +88,9 @@ export default class Command extends BaseCommand {
             MessageType.image,
             undefined,
             undefined,
-            `🏮 *Username: ${username}*\n\n🎗️ *About: ${
+            `💥 *Username: ${username}*\n\n🔮 *About: ${
                 (await this.client.getStatus(user)).status || 'None'
-            }*\n\n〽️ *Level: ${level}*\n\n⭐ *Exp: ${exp || 0}*\n\n💫 *Role: ${role}*\n\n👑 *Admin: ${
+            }*\n\n💫 *Level: ${level}*\n\n⭐ *Exp: ${exp || 0}*\n\n💫 *Role: ${role}*\n\n👑 *Admin: ${
                 M.groupMetadata?.admins?.includes(user) || false
             }*\n\n✖ *Ban ${(await this.client.getUser(user)).ban || false}*`
         )
