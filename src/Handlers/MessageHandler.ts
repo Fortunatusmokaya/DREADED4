@@ -92,7 +92,7 @@ export default class MessageHandler {
 			);
 			if (!command)
 				return void M.reply(
-					`Sorry,your command doesn't exist,why don't you try something from *${this.client.config.prefix}help*.`
+					`Never seen such a command, why don't you try something from *${this.client.config.prefix}help*.`
 				);
 			const user = await this.client.getUser(M.sender.jid);
 			if (user.ban) return void M.reply("You can't use my commands because you are banned! Contact wa.me/+254114018035 for help.");
@@ -101,7 +101,7 @@ export default class MessageHandler {
 			});
 			if (state)
 				return void M.reply(
-					`✖ MASTER disabled this command${
+					`✖ MASTER disabled this command for some reason${
 						state.reason ? ` for ${state.reason}` : ""
 					}`
 				);
