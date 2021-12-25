@@ -40,11 +40,11 @@ export default class Command extends BaseCommand {
     
     Rules :  1.Contact my owner through wa.me/+254114018035 incase you want my script and assistance in deploying me
              
-             2.Don't video or voice call me result=ban/block😡
+             2.Don't video or voice call me result=ban/block�
             
-             3.Don't spam commands😡
+             3.Don't spam commands�
             
-             4.Don't spam wrong commands use <${this.client.config.prefix}help to get info about commands>🥺          
+             4.Don't spam wrong commands 😑use <${this.client.config.prefix}help to get info about commands>🥺          
              
              5.If you need me in your group contact Fortunne or send me a link in my dm.
              
@@ -56,7 +56,7 @@ export default class Command extends BaseCommand {
    
      Also...
                  
-                  if you like to chat with me in a group use : <${this.client.config.prefix}chat (anything you like)        
+                 I have got super brains🧠 and if you like to chat with me in a group use : <${this.client.config.prefix}chat (anything you like)        
             \n\n`
            return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
@@ -69,7 +69,7 @@ export default class Command extends BaseCommand {
     │   🇰🇪Beyond Bot(*^_^*)🚀
     └────────────┈⁂
     ❅┈[💖NICE DAY💖]┈❅
-    💫 *Note: Use ${this.client.config.prefix}dreaded to read my rules and get other info about the bot and script*` }
+    💫 *Note: Use ${this.client.config.prefix}dreaded to read my rules and get other info about the bot*` }
          )
 
 
