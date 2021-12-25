@@ -7,7 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
-            aliases: ['boom', 'kick'],
+            aliases: ['boom', 'kick','vacate'],
             command: 'remove',
             description: 'removes the mentioned users',
             category: 'moderation',
@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        let text = '*Action*\n\n'
+        let text = '*ACTION😈*\n\n'
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
             return void M.reply(`How can I remove someone without being an admin?`)
         if (M.quoted?.sender) M.mentioned.push(M.quoted.sender)
@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
             }
             // check if user is Bot
             else if (this.client.user.jid === user) {
-                text += `✖ Skipped *@${user.split('@')[0]}* as they're me.\n`
+                text += `✖ Skipped *@${user.split('@')[0]}* as they're me,Fuck you🙄.\n`
             } else {
                 text += `🟥 Removed *@${user.split('@')[0]}*\n`
                 await this.client.groupRemove(M.from, [user])
