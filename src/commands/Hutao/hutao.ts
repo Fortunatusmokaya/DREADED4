@@ -9,8 +9,8 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'dreaded',
-            description: 'gives information about bot.',
-            category: 'Hutao',
+            description: 'gives information about bot and rules.',
+            category: 'Rules',
             usage: `${client.config.prefix}lumine`
         })
     }
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
                    
                    Built with Baileys (The Best WhatsApp Library Out There)    
     
-    Rules :  1.Contact my owner through wa.me/+254114018035 incase you want my script and assistance in deploying me
+    Rules :  1.Contact my owner through wa.me/+254114018035.
              
              2.Don't video or voice call me result=ban/block�
             
@@ -47,6 +47,10 @@ export default class Command extends BaseCommand {
              4.Don't spam wrong commands 😑use <${this.client.config.prefix}help to get info about commands>🥺          
              
              5.If you need me in your group contact Fortunne or send me a link in my dm.
+             
+             6.If I was removed previously from a group i won't be able to return.
+             
+             7.Bot *MUST* be an admin of the groups added.
              
            
             
