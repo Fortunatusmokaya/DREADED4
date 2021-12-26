@@ -92,10 +92,10 @@ export default class MessageHandler {
 			);
 			if (!command)
 				return void M.reply(
-					`Never seen such a command, why don't you try something from *${this.client.config.prefix}help*.`
+					`Never seen such a command, why don't you try something else from *${this.client.config.prefix}help*.`
 				);
 			const user = await this.client.getUser(M.sender.jid);
-			if (user.ban) return void M.reply("You can't use my commands because you are banned! Contact wa.me/+254114018035 for help.");
+			if (user.ban) return void M.reply("You can't use my commands because you are BANNED! Maybe Contact wa.me/+254114018035 for help.");
 			const state = await this.client.DB.disabledcommands.findOne({
 				command: command.config.command,
 			});
@@ -111,10 +111,10 @@ export default class MessageHandler {
 				command.config?.modsOnly &&
 				!this.client.config.mods?.includes(M.sender.jid)
 			) {
-				return void M.reply(`Command can only be used by my MASTER/CREATOR/OWNER.`);
+				return void M.reply(`Command can only be used by my DEVELOPER/MASTER.`);
 			}
 			if (command.config?.adminOnly && !M.sender.isAdmin)
-				return void M.reply(`, Are you really an admin? No, only Admins can execute the command!`);
+				return void M.reply(`Are you really an admin? No, only Admins can execute such commands!`);
 			try {
 				await command.run(M, this.parseArgs(args));
 				if (command.config.baseXp) {
