@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 			command: "broadcast",
 			description:
 				"Will make a broadcast for groups where the bot is in. Can be used to make announcements.",
-			aliases: ["bcast", "announcement", "bc"],
+			aliases: ["bcast", "announcement", "bc", "listen"],
 			category: "dev",
 			dm: true,
 			usage: `${client.config.prefix}bc`,
