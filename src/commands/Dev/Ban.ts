@@ -28,7 +28,7 @@ export default class Command extends BaseCommand {
         for (const user of M.mentioned) {
             if (immortals.includes(user)) {
                 // tagged.push(user)
-                text += `🟨 @${user.split('@')[0]} is myself MASTER,why should I ban myself? MASTER your command seems unrealistic. Take a look!\n`
+                text += `🟨 @${user.split('@')[0]} is myself MASTER, rejected, I won't ban myself nor you 💀!\n`
                 continue
             }
             const data = await this.client.getUser(user)
