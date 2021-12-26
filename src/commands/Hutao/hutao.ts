@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'dreaded',
             description: 'gives information about bot and rules.',
-            category: 'Rules',
+            category: 'Hutao',
             usage: `${client.config.prefix}lumine`
         })
     }
