@@ -42,7 +42,7 @@ export default class Command extends BaseCommand {
              
              2.Don't video or voice call me result=ban/block�
             
-             3.Don't spam commands�
+             3.Don't spam commands, if bot fails to respond. Maybe am offline or network failure!
             
              4.Don't spam wrong commands 😑use <${this.client.config.prefix}help to get info about commands>🥺          
              
