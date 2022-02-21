@@ -1,7 +1,6 @@
 <div align="center">
-<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://en.esportsku.com/wp-content/uploads/2021/03/hu-tao.jpg" alt="chitoge" border="0"></a>
 
-# **DREADED : A WhatsApp BOT WITH RICH ANIME FEATURES**
+# **DREADED : REPO IN ERROR AND MAY FAIL TO DEPLOY**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
